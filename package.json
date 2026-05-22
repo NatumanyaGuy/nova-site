@@ -34,6 +34,7 @@
 		"daisyui": "^3.9.4",
 		"date-fns": "^2.30.0",
 		"pocketbase": "^0.16.0",
+		"site": ".",
 		"svelte-countup": "^0.2.8",
 		"svelte-french-toast": "^1.2.0",
 		"svelte-reveal": "^0.7.0",
