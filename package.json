@@ -1,0 +1,42 @@
+{
+	"name": "site",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev --host",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
+		"lint": "prettier --plugin-search-dir . --check .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"engines": {
+		"node": "22.x"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.1.1",
+		"@sveltejs/kit": "^1.30.4",
+		"autoprefixer": "^10.5.0",
+		"postcss": "^8.5.15",
+		"postcss-load-config": "^4.0.2",
+		"prettier": "^2.8.8",
+		"prettier-plugin-svelte": "^2.10.1",
+		"svelte": "^4.2.20",
+		"svelte-check": "^3.8.6",
+		"tailwindcss": "^3.4.19",
+		"typescript": "^5.9.3",
+		"vite": "^4.5.14"
+	},
+	"type": "module",
+	"dependencies": {
+		"@emailjs/browser": "^3.12.1",
+		"daisyui": "^3.9.4",
+		"date-fns": "^2.30.0",
+		"pocketbase": "^0.16.0",
+		"svelte-countup": "^0.2.8",
+		"svelte-french-toast": "^1.2.0",
+		"svelte-reveal": "^0.7.0",
+		"vercel": "^54.3.0"
+	}
+}

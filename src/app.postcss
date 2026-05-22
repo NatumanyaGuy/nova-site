@@ -1,0 +1,39 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: Amulya;
+	src: url(/Amulya.ttf);
+}
+
+* {
+	font-family: Amulya;
+}
+.glassmorph {
+	backdrop-filter: blur(5.5px);
+	-webkit-backdrop-filter: blur(5.5px);
+}
+
+.ql-content h1 {
+	@apply text-2xl;
+}
+.ql-content h2 {
+	@apply text-xl;
+}
+.ql-content h3 {
+	@apply text-lg;
+}
+.ql-content h4 {
+	@apply text-base;
+}
+.ql-content h5 {
+	@apply text-sm;
+}
+.ql-content h6 {
+	@apply text-xs;
+}
+.ql-content a {
+	@apply text-primary underline underline-offset-2 hover:text-primary-focus;
+}
